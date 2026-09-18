@@ -11,7 +11,7 @@ from python_qt_binding import QtCore
 from rqt_gui_py.plugin import Plugin
 
 from dvrk_simulator_base.config import load_robot_config
-from dvrk_simulator_base.simple_monitor import CRTKMonitorArm
+from .arm_client import CRTKMonitorArm
 from .arm_widget import CRTKArmWidget
 from .ral_executor import QtRALExecutor
 
