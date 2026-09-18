@@ -1,0 +1,10 @@
+<library path="src">
+  <class name="Arm" type="rqt_crtk.arm_plugin.ArmPlugin" base_class_type="rqt_gui_py::Plugin">
+    <description>Generic CRTK arm monitor and command panel.</description>
+    <qtgui><group><label>CRTK</label></group><label>Arm</label></qtgui>
+  </class>
+  <class name="Diagnostics" type="rqt_crtk.diagnostics_plugin.DiagnosticsPlugin" base_class_type="rqt_gui_py::Plugin">
+    <description>Generic ROS diagnostics panel for CRTK devices.</description>
+    <qtgui><group><label>CRTK</label></group><label>Diagnostics</label></qtgui>
+  </class>
+</library>
