@@ -9,7 +9,6 @@
   <exec_depend>ament_index_python</exec_depend>
   <exec_depend>crtk_python_client</exec_depend>
   <exec_depend>diagnostic_msgs</exec_depend>
-  <exec_depend>dvrk_simulator_base</exec_depend>
   <exec_depend>python_qt_binding</exec_depend>
   <exec_depend>rqt_gui</exec_depend>
   <exec_depend>rqt_gui_py</exec_depend>

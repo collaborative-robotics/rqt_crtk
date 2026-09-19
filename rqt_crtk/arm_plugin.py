@@ -10,7 +10,7 @@ from ament_index_python.packages import get_package_share_directory
 from python_qt_binding import QtCore
 from rqt_gui_py.plugin import Plugin
 
-from dvrk_simulator_base.config import load_robot_config
+from crtk.config import load_robot_config
 from .arm_client import CRTKMonitorArm
 from .arm_widget import CRTKArmWidget
 from .ral_executor import QtRALExecutor

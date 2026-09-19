@@ -7,7 +7,7 @@ import math
 import numpy as np
 from python_qt_binding import QtCore, QtWidgets
 
-from dvrk_simulator_base.types import Pose
+from crtk.types import Pose
 
 
 def _rpy(rotation):
